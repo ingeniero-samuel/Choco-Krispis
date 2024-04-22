@@ -1,0 +1,11 @@
+El ejercicio comienza con la preparación de datos, donde se crea un archivo llamado cereal.csv que contiene información sobre las calorías de diferentes marcas de cereales. Estos datos se almacenan en una lista denominada calorie_stats en el código Python.
+
+Luego, se calcula el promedio de las calorías de las marcas competidoras utilizando la función np.mean() de NumPy. Este paso proporciona una medida central de las calorías en las marcas competidoras y se compara con las 60 calorías por porción de CrunchieMunchies para evaluar la diferencia en términos de contenido calórico.
+
+Los datos se organizan utilizando el método sort() para poder calcular la mediana. La mediana se calcula utilizando la función np.median() y proporciona una medida robusta de la centralidad de los datos.
+
+Después, se encuentra el primer percentil mayor a 60 calorías utilizando la función np.percentile(). Esto permite identificar la cantidad de cereales que tienen un contenido calórico más alto que CrunchieMunchies.
+
+Se calcula el porcentaje de cereales que tienen más de 60 calorías por porción, lo que proporciona información sobre la proporción de cereales que tienen un contenido calórico más alto que CrunchieMunchies.
+
+Finalmente, se calcula la desviación estándar de las calorías utilizando np.std() para evaluar la dispersión de los datos. Esto ayuda a comprender cuánto varían las calorías entre las diferentes marcas de cereales.
